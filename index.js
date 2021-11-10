@@ -47,13 +47,13 @@ function makeSound(key) {
       break;
 
     case "j":
-      var snare = new Audio('sounds/snare.mp3');
-      snare.play();
+      var crash = new Audio('sounds/crash.mp3');
+      crash.play();
       break;
 
     case "k":
-      var crash = new Audio('sounds/crash.mp3');
-      crash.play();
+      var snare = new Audio('sounds/snare.mp3');
+      snare.play();
       break;
 
     case "l":
